@@ -10,23 +10,71 @@
 </head>
 <body>
 
-  <nav class="navbar navbar-default">
-    <div class="container-fluid">
-      <div class="navbar-header">
-        <a class="navbar-brand" href="index.html">Turismo de Cochabamba</a>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand" href="index.html">Turismo de Cochabamba</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#mynavbar" aria-controls="mynavbar" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="#">Atractivos Turisticos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Eventos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Tours y Recorridos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Gastronomia</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Hospedajes</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Foros</a>
+          </li>
+        </ul>
       </div>
-      <ul class="nav navbar-nav">
-        <li class="active"><a href="index.html">Atractivos Turisticos</a></li>
-        <li><a href="index.html">Eventos</a></li>
-        <li><a href="index.html">Tours y Recorridos</a></li>
-        <li><a href="index.html">Gastronomia</a></li>
-		<li><a href="index.html">Hospedajes</a></li>
-		<li><a href="index.html">Foros</a></li>
-      </ul>
-    </div>
   </nav>
 
-<div class="container-fluid">
+  <div id="nuevo" class="carousel slide" data-ride="carousel">
+  <!-- Indicators -->
+  <ul class="carousel-indicators">
+    <li data-target="#nuevo" data-slide-to="0" class="active"></li>
+    <li data-target="#nuevo" data-slide-to="1"></li>
+  </ul>
+  <!-- The slideshow -->
+  <div class="carousel-inner">
+    <!-- <div class="carousel-item active">
+      <a href="http://correodelsur.com/local/20171207_domingo-en-sucre-feria--del-precio-y-peso-justo.html">
+        <img src="resources/evento1.jpg" alt="feria del precio justo">
+      </a>
+    </div> -->
+    <div class="carousel-item active">
+      <a href="http://www.lostiempos.com/actualidad/economia/20171129/cochabamba-apuesta-fusion-afianzarse-como-capital-gastronomica">
+        <img src="resources/evento2.jpg" alt="Cochabamba capital gastronomica">
+      </a>
+    </div>
+    <div class="carousel-item">
+      <a href="http://www.lostiempos.com/doble-click/vida/20171119/comida-amazonica-deleite-saludable-afrodisiaco">
+        <img src="resources/evento3.jpg" alt="Comida amazonica">
+      </a>
+    </div>
+  </div>
+  <!-- Left and right controls -->
+  <a class="carousel-control-prev" href="#nuevo" data-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+  </a>
+  <a class="carousel-control-next" href="#nuevo" data-slide="next">
+    <span class="carousel-control-next-icon"></span>
+  </a>
+
+</div>
+
+
+  <div class="container-fluid">
   <div class="row">
     <div class="col-md-6 col-md-offset-3">
             <h1>Eventos</h1>
@@ -53,14 +101,10 @@
   </div>
 </div>
 
-
-
-
-
-
-
+  <script src="js/popper.min.js"></script>
   <script src="js/jquery-3.2.1.min.js"></script>
   <script src="js/bootstrap.min.js"></script>
+
 </body>
 
 </html>

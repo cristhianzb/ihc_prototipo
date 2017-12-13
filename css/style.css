@@ -16,7 +16,7 @@ body {
 
 }*/
 
-#imagen_item {
-	 width: 20px;
-   height: 20px;
+.imagen_item {
+	 width: 400px;
+   height: 400px;
 }
