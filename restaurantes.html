@@ -9,68 +9,195 @@
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #FF7A00; ">
       <a class="navbar-brand" href="index.html">Turismo de Cochabamba</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#mynavbar" aria-controls="mynavbar" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse">
         <ul class="navbar-nav mr-auto">
-          <li class="nav-item">
+          <li class="nav-item active">
             <a class="nav-link" href="#">Atractivos Turisticos</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="index.html">Eventos</a>
+            <a class="nav-link active" href="index.html">Eventos</a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link" href="index.html">Tours y Recorridos</a>
+          <li class="nav-item active">
+            <a class="nav-link active" href="index.html">Tours y Recorridos</a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link" href="index.html">Gastronomia</a>
+          <li class="nav-item dropdown">
+            <a class="nav-link active dropdown-toogle" id="lista" href="index.html" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Gastronomia</a>
+             <div class="dropdown-menu" aria-labelledby="lista">
+               <a class="dropdown-item" href="eventos.html">Eventos</a>
+               <a class="dropdown-item" href="platos.html">Platos</a>
+               <a class="dropdown-item" href="restaurantes.html">Restaurantes</a>
+               <a class="dropdown-item" href="links.html">Web amigas</a>
+             </div>
           </li>
-          <li class="nav-item">
+          <li class="nav-item active">
             <a class="nav-link" href="index.html">Hospedajes</a>
           </li>
-          <li class="nav-item">
+          <li class="nav-item active">
             <a class="nav-link" href="index.html">Foros</a>
+          </li class="nav-item">
+          <li class="nav-item dropdown">
+            <a class="nav-link active dropdown-toogle" id="idiomas" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              <img src="resources/si-glyph-network-2.svg" style="width:20px;height:20px;" alt="lenguaje">
+              Idiomas</a>
+             <div class="dropdown-menu" aria-labelledby="idiomas">
+               <a class="dropdown-item" href="#">Ingles</a>
+               <a class="dropdown-item" href="#">Aleman</a>
+               <a class="dropdown-item" href="#">Frances</a>
+               <a class="dropdown-item" href="#">Japones</a>
+             </div>
           </li>
         </ul>
+        <form class="form-inline my-2 my-lg-0">
+          <input class="form-control mr-sm-2" type="search" placeholder="Buscar" aria-label="Buscar">
+          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Buscar</button>
+        </form>
       </div>
   </nav>
+  <img id="banner" src="resources/banner.jpg" alt="banner">
 
+  <div class="container mx-auto">
+    <div class="row">
+    <div>
+      <center>
+        <br>
+          <h1>Restaurantes</h1>
+      </center>
 
+      <br>
 
+    <div>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+      </p>
+    </div>
+    <br>
+    <div class="list-group">
+      <div class="list-group-item mi_item">
+        <h3>Palacio del silpancho</h3>
+        <div class="row">
+          <img class="imagen_lista col-4" src="resources/palaciosilpa.jpg" alt="">
+          <div class="col-8">
+            <form>
+              <h6>Calificacion</h6>
+              <p class="clasificacion">
+                <input id="radio1" type="radio" name="estrellas" value="5"><!--
+                --><label for="radio1">★</label><!--
+                --><input id="radio2" type="radio" name="estrellas" value="4"><!--
+                --><label for="radio2">★</label><!--
+                --><input id="radio3" type="radio" name="estrellas" value="3"><!--
+                --><label for="radio3">★</label><!--
+                --><input id="radio4" type="radio" name="estrellas" value="2"><!--
+                --><label for="radio4">★</label><!--
+                --><input id="radio5" type="radio" name="estrellas" value="1"><!--
+                --><label for="radio5">★</label>
+              </p>
+            </form>
+            <h5>Descripcion</h5>
+            <p>
 
-<div class="container-fluid">
-  <div class="row">
-    <div class="col-md-6 col-md-offset-3">
-            <h1>Gastronomia</h1>
-            <br>
-            <br>
-            <a href="platos.html">
-              <img src="resources/piquemacho.jpg" alt="piquemacho">
-            </a>
-            <br>
-			<a href="restaurantes.html">
-              <img src="resources/restaurantes.jpg" alt="restaurantes">
-            </a>
-			<a href="eventos.html">
-              <img src="resources/eventos.jpg" alt="eventos">
-            </a>
-			<a href="links.html">
-              <img src="resources/links.jpg" alt="web amigas">
-            </a>
-            <br>
-            <p class="lead">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam illum ab officia, enim iure ipsa eos, voluptas nobis architecto commodi quod, quis nesciunt deserunt natus eius fugiat sequi optio nisi?
+4-4222732
+coordenadas  -17.3895078,-66.1558807,17
+
+ubicacion
+
+Ecuador 610, Cochabamba
+
+especialidades
+Tradición Cochabambina. Comida Típica en Cochabamba. Comida criolla. Especialidad en Sillpanchos
+
+horarios de atencion
+viernes
+12-14:30
+18-22:30
+sábado
+18-22:30
+domingo
+18-22:30
+lunes
+12-14:30
+18-22:30
+martes
+12-14:30
+18-22:30
+miércoles
+1214:30
+1822:30
+jueves
+1214:30
+1822:30
+
             </p>
+            <a href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=1&cad=rja&uact=8&ved=0ahUKEwjDheWho4rYAhUKEZAKHQ5ZBmsQFggmMAA&url=http%3A%2F%2Fwww.lostiempos.com%2Factualidad%2Flocal%2F20160304%2Fvalle-alto-invita-dos-ferias-del-durazno&usg=AOvVaw28eRiwXby3ix0dLygoFQV6">Mas detalles</a>
+
+          </div>
+        </div>
+      </div>
+      <div class="list-group-item mi_item">
+        <h3>Paprika</h3>
+        <div class="row">
+          <img class="imagen_lista col-4" src="resources/paprika.jpg" alt="">
+          <div class="col-8">
+            <form>
+              <h6>Calificacion</h6>
+              <p class="clasificacion">
+                <input id="radio1" type="radio" name="estrellas" value="5"><!--
+                --><label for="radio1">★</label><!--
+                --><input id="radio2" type="radio" name="estrellas" value="4"><!--
+                --><label for="radio2">★</label><!--
+                --><input id="radio3" type="radio" name="estrellas" value="3"><!--
+                --><label for="radio3">★</label><!--
+                --><input id="radio4" type="radio" name="estrellas" value="2"><!--
+                --><label for="radio4">★</label><!--
+                --><input id="radio5" type="radio" name="estrellas" value="1"><!--
+                --><label for="radio5">★</label>
+              </p>
+            </form>
+            <h5>Descripcion</h5>
+            <p>
+              ubicacion
+Chuquisaca 688, Cochabamba
+telf 4 4662400
+
+ESPECIALIDADES
+Carne de pollo
+Carne de cerdo
+Carnes exóticas
+Pescados
+Mariscos
+Pastas
+
+coordenada  -17.3852639,-66.1566007
+
+atencion:
+viernes
+11:301:30
+sábado
+11:301:30
+domingo
+11:300
+lunes
+11:301:30
+martes
+11:301:30
+miércoles
+11:301:30
+jueves
+11:301:30
+
+            </p>
+            <a href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=1&cad=rja&uact=8&ved=0ahUKEwjDheWho4rYAhUKEZAKHQ5ZBmsQFggmMAA&url=http%3A%2F%2Fwww.lostiempos.com%2Factualidad%2Flocal%2F20160304%2Fvalle-alto-invita-dos-ferias-del-durazno&usg=AOvVaw28eRiwXby3ix0dLygoFQV6">Mas detalles</a>
+          </div>
+        </div>
+      </div>
+    </div>
     </div>
   </div>
-</div>
-
-
-
-
+  </div>
 
 
 

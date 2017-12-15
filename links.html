@@ -3,52 +3,104 @@
 
 <head>
   <meta charset="utf-8">
-  <title>gastronommia </title>
+  <title>gastronomia </title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="css/bootstrap.min.css">
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <nav class="navbar navbar-expand-lg navbar-light fixed-top" style="background-color: #FF7A00; ">
       <a class="navbar-brand" href="index.html">Turismo de Cochabamba</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#mynavbar" aria-controls="mynavbar" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse">
         <ul class="navbar-nav mr-auto">
-          <li class="nav-item">
+          <li class="nav-item active">
             <a class="nav-link" href="#">Atractivos Turisticos</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="index.html">Eventos</a>
+            <a class="nav-link active" href="index.html">Eventos</a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link" href="index.html">Tours y Recorridos</a>
+          <li class="nav-item active">
+            <a class="nav-link active" href="index.html">Tours y Recorridos</a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link" href="index.html">Gastronomia</a>
+          <li class="nav-item dropdown">
+            <a class="nav-link active dropdown-toogle" id="lista" href="index.html" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Gastronomia</a>
+             <div class="dropdown-menu" aria-labelledby="lista">
+               <a class="dropdown-item" href="eventos.html">Eventos</a>
+               <a class="dropdown-item" href="platos.html">Platos</a>
+               <a class="dropdown-item" href="restaurantes.html">Restaurantes</a>
+               <a class="dropdown-item" href="links.html">Web amigas</a>
+             </div>
           </li>
-          <li class="nav-item">
+          <li class="nav-item active">
             <a class="nav-link" href="index.html">Hospedajes</a>
           </li>
-          <li class="nav-item">
+          <li class="nav-item active">
             <a class="nav-link" href="index.html">Foros</a>
+          </li class="nav-item">
+          <li class="nav-item dropdown">
+            <a class="nav-link active dropdown-toogle" id="idiomas" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              <img src="resources/si-glyph-network-2.svg" style="width:20px;height:20px;" alt="lenguaje">
+              Idiomas</a>
+             <div class="dropdown-menu" aria-labelledby="idiomas">
+               <a class="dropdown-item" href="#">Ingles</a>
+               <a class="dropdown-item" href="#">Aleman</a>
+               <a class="dropdown-item" href="#">Frances</a>
+               <a class="dropdown-item" href="#">Japones</a>
+             </div>
           </li>
         </ul>
+        <form class="form-inline my-2 my-lg-0">
+          <input class="form-control mr-sm-2" type="search" placeholder="Buscar" aria-label="Buscar">
+          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Buscar</button>
+        </form>
       </div>
   </nav>
 
+  <img id="banner" src="resources/banner.jpg" alt="banner">
 
+
+  <div class="list-group">
+    <div class="list-group-item mi_item">
+      <h3>Alcaldia Municipal</h3>
+      <div class="row">
+        <div class="col-8">
+
+          <h5>Descripcion</h5>
+          <p>
+            Sean Bienvenidos a este hermoso evento.
+            La Feria del Ciruelo, la Frutilla y el Durazno Temprano en San Benito (Tercer domingo). 17 de diciembre
+          </p>
+          <a href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=1&cad=rja&uact=8&ved=0ahUKEwjDheWho4rYAhUKEZAKHQ5ZBmsQFggmMAA&url=http%3A%2F%2Fwww.lostiempos.com%2Factualidad%2Flocal%2F20160304%2Fvalle-alto-invita-dos-ferias-del-durazno&usg=AOvVaw28eRiwXby3ix0dLygoFQV6">Mas detalles</a>
+
+        </div>
+      </div>
+    </div>
+    <div class="list-group-item mi_item">
+      <h3>Gobernacion</h3>
+      <div class="row">
+        <div class="col-8">
+          <h5>Descripcion</h5>
+          <p>
+            Sean Bienvenidos a este hermoso evento.
+            La Feria de la Picana, donde grupos musicales en vivo. Lugar: plazuela excombatientes, Fecha: Domingo, 18 de Diciembre de 2017
+          </p>
+          <a href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=1&cad=rja&uact=8&ved=0ahUKEwjDheWho4rYAhUKEZAKHQ5ZBmsQFggmMAA&url=http%3A%2F%2Fwww.lostiempos.com%2Factualidad%2Flocal%2F20160304%2Fvalle-alto-invita-dos-ferias-del-durazno&usg=AOvVaw28eRiwXby3ix0dLygoFQV6">Mas detalles</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
 <div class="container-fluid">
   <div class="row">
     <div class="col-md-6 col-md-offset-3">
-            <h1>Links</h1>
+            <h1>Web Amigas </h1>
             <br>
 
-            <a href="platos.html">
-              <img src="resources/piquemacho.jpg" alt="piquemacho" class="imagen_item">
-            </a>
-			<div>
+
+		  <div>
 				<h6>Nombre</h6>
 				<p>Descripcion</p>
 				<a href="">url</a>
