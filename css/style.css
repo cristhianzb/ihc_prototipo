@@ -66,6 +66,14 @@ body {
     background: #55ACEE;
     color: white;
 }
+.fa-google {
+    background: #ea5b33;
+    color: white;
+}
+.fa-youtube {
+    background: red;
+    color: white;
+}
 
 
 /*estrellas*/
