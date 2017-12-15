@@ -7,6 +7,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="css/bootstrap.min.css">
   <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
   <nav class="navbar navbar-expand-lg navbar-light fixed-top" style="background-color: #FF7A00; ">
@@ -14,7 +15,7 @@
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#mynavbar" aria-controls="mynavbar" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
-      <div class="collapse navbar-collapse">
+      <div class="collapse navbar-collapse" id="mynavbar">
         <ul class="navbar-nav mr-auto">
           <li class="nav-item active">
             <a class="nav-link" href="#">Atractivos Turisticos</a>
@@ -26,10 +27,10 @@
             <a class="nav-link active" href="index.html">Tours y Recorridos</a>
           </li>
           <li class="nav-item dropdown">
-            <a class="nav-link active dropdown-toogle" id="lista" href="index.html" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Gastronomia</a>
-             <div class="dropdown-menu" aria-labelledby="lista">
+            <a class="nav-link active dropdown-toogle" id="lista" href="index.html" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Gastronom&iacute;a</a>
+             <div class="dropdown-menu desplegable" aria-labelledby="lista">
                <a class="dropdown-item" href="eventos.html">Eventos</a>
-               <a class="dropdown-item" href="platos.html">Platos</a>
+               <a class="dropdown-item" href="platos_y_postres.html">Platos</a>
                <a class="dropdown-item" href="restaurantes.html">Restaurantes</a>
                <a class="dropdown-item" href="links.html">Web amigas</a>
              </div>
@@ -44,11 +45,11 @@
             <a class="nav-link active dropdown-toogle" id="idiomas" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
               <img src="resources/si-glyph-network-2.svg" style="width:20px;height:20px;" alt="lenguaje">
               Idiomas</a>
-             <div class="dropdown-menu" aria-labelledby="idiomas">
-               <a class="dropdown-item" href="#">Ingles</a>
-               <a class="dropdown-item" href="#">Aleman</a>
-               <a class="dropdown-item" href="#">Frances</a>
-               <a class="dropdown-item" href="#">Japones</a>
+             <div class="dropdown-menu desplegable" aria-labelledby="idiomas">
+               <a class="dropdown-item" href="#">Ingl&eacute;s</a>
+               <a class="dropdown-item" href="#">Alem&aacute;n</a>
+               <a class="dropdown-item" href="#">Franc&eacute;s</a>
+               <a class="dropdown-item" href="#">Japon&eacute;s</a>
              </div>
           </li>
         </ul>
@@ -61,62 +62,104 @@
 
   <img id="banner" src="resources/banner.jpg" alt="banner">
 
+  <br>
+  <br>
+  <center>
+    <h1>Web Amigas </h1>
+  </center>
 
-  <div class="list-group">
+  <br>
+  <div class="list-group container">
     <div class="list-group-item mi_item">
-      <h3>Alcaldia Municipal</h3>
+      <h3>Alcald&iacute;a Municipal</h3>
       <div class="row">
         <div class="col-8">
 
-          <h5>Descripcion</h5>
+          <h5>Descripci&oacute;n</h5>
           <p>
-            Sean Bienvenidos a este hermoso evento.
-            La Feria del Ciruelo, la Frutilla y el Durazno Temprano en San Benito (Tercer domingo). 17 de diciembre
+            Sitio web de la alcaldia municipal de Cochabamba
           </p>
-          <a href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=1&cad=rja&uact=8&ved=0ahUKEwjDheWho4rYAhUKEZAKHQ5ZBmsQFggmMAA&url=http%3A%2F%2Fwww.lostiempos.com%2Factualidad%2Flocal%2F20160304%2Fvalle-alto-invita-dos-ferias-del-durazno&usg=AOvVaw28eRiwXby3ix0dLygoFQV6">Mas detalles</a>
+          <a href="http://www.cochabamba.bo/">Ir al sitio</a>
 
         </div>
       </div>
     </div>
     <div class="list-group-item mi_item">
-      <h3>Gobernacion</h3>
+      <h3>Gobernaci&oacute;n</h3>
       <div class="row">
         <div class="col-8">
-          <h5>Descripcion</h5>
+          <h5>Descripci&oacute;n</h5>
           <p>
-            Sean Bienvenidos a este hermoso evento.
-            La Feria de la Picana, donde grupos musicales en vivo. Lugar: plazuela excombatientes, Fecha: Domingo, 18 de Diciembre de 2017
+            Sitio web de la Gobernaci&oacute;n de Cochabamba
           </p>
-          <a href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=1&cad=rja&uact=8&ved=0ahUKEwjDheWho4rYAhUKEZAKHQ5ZBmsQFggmMAA&url=http%3A%2F%2Fwww.lostiempos.com%2Factualidad%2Flocal%2F20160304%2Fvalle-alto-invita-dos-ferias-del-durazno&usg=AOvVaw28eRiwXby3ix0dLygoFQV6">Mas detalles</a>
+          <a href="http://www.gobernaciondecochabamba.bo/">Ir al sitio</a>
         </div>
       </div>
     </div>
-  </div>
-  </div>
-<div class="container-fluid">
-  <div class="row">
-    <div class="col-md-6 col-md-offset-3">
-            <h1>Web Amigas </h1>
-            <br>
 
-
-		  <div>
-				<h6>Nombre</h6>
-				<p>Descripcion</p>
-				<a href="">url</a>
-			</div>
-
-
+    <div class="list-group-item mi_item">
+      <h3>Direcci&oacute;n de Turismo de la Alcald&iacute;a de Cochabamba</h3>
+      <div class="row">
+        <div class="col-8">
+          <h5>Descripci&oacute;n</h5>
+          <p>
+            Sitio web de la direccion de turismo de la alcald&iacute;a de Cochabamba
+          </p>
+          <a href="http://www.cochabamba.bo/turismo">Ir al sitio</a>
+        </div>
+      </div>
     </div>
+
+    <div class="list-group-item mi_item">
+      <h3>Ministerio de Culturas y Turismo</h3>
+      <div class="row">
+        <div class="col-8">
+          <h5>Descripci&oacute;n</h5>
+          <p>
+            Sitio web del Ministerio de Culturas y Turismo de Bolivia
+          </p>
+          <a href="http://www.minculturas.gob.bo/">Ir al sitio</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="list-group-item mi_item">
+      <h3>Asociaci&oacute;n de Chefs de Bolivia</h3>
+      <div class="row">
+        <div class="col-8">
+          <h5>Descripci&oacute;n</h5>
+          <p>
+            P&aacute;gina de facebook de la Asociaci&oacute;n de Chefs de Bolivia
+          </p>
+          <a href="https://www.facebook.com/asociaciondechefsdebolivia/">Ir al sitio</a>
+        </div>
+      </div>
+    </div>
+
+
+
+
+
   </div>
+  </div>
+
+
+
+
+
+<br>
+
+<div class="pagination justify-content-end">
+  <!-- Add font awesome icons -->
+  <a href="https://www.facebook.com/turismocbba/?ref=br_rs" class="fa fa-facebook "></a>
+  <a href="https://plus.google.com/+GastronomiaEsp" class="fa fa-google"></a>
+  <a href="https://twitter.com/turiscocba?lang=es" class="fa fa-twitter"></a>
+  <a href="https://www.youtube.com/watch?v=6ZsAeiSSR2s" class="fa fa-youtube"></a>
+
 </div>
 
 
-
-
-
-
-
+  <script src="js/popper.min.js"></script>
   <script src="js/jquery-3.2.1.min.js"></script>
   <script src="js/bootstrap.min.js"></script>
 </body>
