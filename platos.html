@@ -2,140 +2,245 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>Gastronom&iacute;a</title>
+    <title>Gastronom&iacute;a </title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   </head>
   <body>
-    <div class="">
-      <div class="">
-        <h4>Lunes</h4>
-        <ul>
-          <li>
-            <a href="#">Chorizo criollo</a>
-          </li>
-          <li>
-            <a href="#">Escabeche</a>
-          </li>
-          <li>
-            <a href="#">Enrollado</a>
-          </li>
-          <li>
-            <a href="#">Kardan Caldito</a>
-          </li>
-          <li>
-            <a href="#">Matahambre</a>
-          </li>
-        </ul>
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top" style="background-color: #FF7A00; ">
+          <a class="navbar-brand" href="index.html">Turismo de Cochabamba</a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#mynavbar" aria-controls="mynavbar" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="mynavbar">
+            <ul class="navbar-nav mr-auto">
+              <li class="nav-item active">
+                <a class="nav-link" href="#">Atractivos Turisticos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="index.html">Eventos</a>
+              </li>
+              <li class="nav-item active">
+                <a class="nav-link active" href="index.html">Tours y Recorridos</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link active dropdown-toogle" id="lista" href="index.html" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Gastronom&iacute;a</a>
+                 <div class="dropdown-menu desplegable" aria-labelledby="lista">
+                   <a class="dropdown-item" href="eventos.html">Eventos</a>
+                   <a class="dropdown-item" href="platos_y_postres.html">Platos</a>
+                   <a class="dropdown-item" href="restaurantes.html">Restaurantes</a>
+                   <a class="dropdown-item" href="links.html">Web amigas</a>
+                 </div>
+              </li>
+              <li class="nav-item active">
+                <a class="nav-link" href="index.html">Hospedajes</a>
+              </li>
+              <li class="nav-item active">
+                <a class="nav-link" href="index.html">Foros</a>
+              </li class="nav-item">
+              <li class="nav-item dropdown">
+                <a class="nav-link active dropdown-toogle" id="idiomas" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  <img src="resources/si-glyph-network-2.svg" style="width:20px;height:20px;" alt="lenguaje">
+                  Idiomas</a>
+                 <div class="dropdown-menu desplegable" aria-labelledby="idiomas">
+                   <a class="dropdown-item" href="#">Ingl&eacute;s</a>
+                   <a class="dropdown-item" href="#">Alem&aacute;n</a>
+                   <a class="dropdown-item" href="#">Franc&eacute;s</a>
+                   <a class="dropdown-item" href="#">Japon&eacute;s</a>
+                 </div>
+              </li>
+            </ul>
+            <form class="form-inline my-2 my-lg-0">
+              <input class="form-control mr-sm-2" type="search" placeholder="Buscar" aria-label="Buscar">
+              <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Buscar</button>
+            </form>
+          </div>
+      </nav>
+    <img id="banner" src="resources/banner.jpg" alt="banner">
+    <br>
+    <br>
+
+    <div class="container">
+      <h1 class="d-flex justify-content-center">Platos Tradicionales de Cochabamba</h1>
+      <div class="row d-flex justify-content-center">
+        <div class="card">
+          <div class="card-body">
+            <h4>Lunes</h4>
+            <ul>
+              <li>
+                <a href="#">Chorizo criollo</a>
+              </li>
+              <li>
+                <a href="#">Escabeche</a>
+              </li>
+              <li>
+                <a href="#">Enrollado</a>
+              </li>
+              <li>
+                <a href="#">Kardan Caldito</a>
+              </li>
+              <li>
+                <a href="#">Matahambre</a>
+              </li>
+            </ul>
+          </div>
+
+        </div>
+
+        <div class="card">
+          <div class="card-body">
+            <h4>Martes</h4>
+            <ul>
+              <li>
+                <a href="#">Chanka de pollo</a>
+              </li>
+              <li>
+                <a href="#">Ranga</a>
+              </li>
+              <li>
+                <a href="#">Relleno de papa</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="card-body">
+            <h4>Mi&eacute;rcoles</h4>
+            <ul>
+              <li>
+                <a href="#">Ají de patas</a>
+              </li>
+              <li>
+                <a href="#">Locoto de relleno</a>
+              </li>
+              <li>
+                <a href="#">Puchero</a>
+              </li>
+              <li>
+                <a href="#">Ri&ntilde;ones</a>
+              </li>
+              <li>
+                <a href="#">Silpancho</a>
+              </li>
+            </ul>
+          </div>
+
+        </div>
       </div>
 
-      <div class="">
-        <h4>Martes</h4>
-        <ul>
-          <li>
-            <a href="#">Chanka de pollo</a>
-          </li>
-          <li>
-            <a href="#">Ranga</a>
-          </li>
-          <li>
-            <a href="#">Relleno de papa</a>
-          </li>
-        </ul>
+      <div class="row d-flex justify-content-center">
+        <div class="card">
+          <div class="card-body">
+            <h4>Jueves</h4>
+            <ul>
+              <li>
+                <a href="fideos_uchu.html">Fideos Uchu</a>
+              </li>
+              <li>
+                <a href="#">Lapping</a>
+              </li>
+              <li>
+                <a href="#">Picante mixto</a>
+              </li>
+              <li>
+                <a href="#">Tranca Pecho</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="card-body">
+            <h4>Viernes</h4>
+            <ul>
+              <li>
+                <a href="#">Kallu</a>
+              </li>
+              <li>
+                <a href="#">Lecho&oacute;n</a>
+              </li>
+              <li>
+                <a href="#">Planchitas</a>
+              </li>
+              <li>
+                <a href="#">Pique Macho</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="card-body">
+            <h4>S&aacute;bado</h4>
+            <ul>
+              <li>
+                <a href="#">Habas pejtu</a>
+              </li>
+              <li>
+                <a href="#">Jauri uchu</a>
+              </li>
+              <li>
+                <a href="#">Lambreado de conejo</a>
+              </li>
+              <li>
+                <a href="#">Lomo borracho</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="row d-flex justify-content-center">
+        <div class="card">
+          <div class="card-body">
+            <h4>Domingo</h4>
+            <ul>
+              <li>
+                <a href="#">Chicharr&oacute;n</a>
+              </li>
+              <li>
+                <a href="#">Pampaku</a>
+              </li>
+              <li>
+                <a href="#">Salte&ntilde;as</a>
+              </li>
+              <li>
+                <a href="#">Sopa de Maní</a>
+              </li>
+            </ul>
+          </div>
+        </div>
       </div>
 
-      <div class="">
-        <h4>Mi&eacute;rcoles</h4>
-        <ul>
-          <li>
-            <a href="#">Ají de patas</a>
-          </li>
-          <li>
-            <a href="#">Locoto de relleno</a>
-          </li>
-          <li>
-            <a href="#">Puchero</a>
-          </li>
-          <li>
-            <a href="#">Ri&ntilde;ones</a>
-          </li>
-          <li>
-            <a href="#">Silpancho</a>
-          </li>
-        </ul>
-      </div>
 
-      <div class="">
-        <h4>Jueves</h4>
-        <ul>
-          <li>
-            <a href="fideos_uchu.html">Fideos Uchu</a>
-          </li>
-          <li>
-            <a href="#">Lapping</a>
-          </li>
-          <li>
-            <a href="#">Picante mixto</a>
-          </li>
-          <li>
-            <a href="#">Tranca Pecho</a>
-          </li>
-        </ul>
-      </div>
 
-      <div class="">
-        <h4>Viernes</h4>
-        <ul>
-          <li>
-            <a href="#">Kallu</a>
-          </li>
-          <li>
-            <a href="#">Lecho&oacute;n</a>
-          </li>
-          <li>
-            <a href="#">Planchitas</a>
-          </li>
-          <li>
-            <a href="#">Pique Macho</a>
-          </li>
-        </ul>
-      </div>
 
-      <div class="">
-        <h4>S&aacute;bado</h4>
-        <ul>
-          <li>
-            <a href="#">Habas pejtu</a>
-          </li>
-          <li>
-            <a href="#">Jauri uchu</a>
-          </li>
-          <li>
-            <a href="#">Lambreado de conejo</a>
-          </li>
-          <li>
-            <a href="#">Lomo borracho</a>
-          </li>
-        </ul>
-      </div>
 
-      <div class="">
-        <h4>Domingo</h4>
-        <ul>
-          <li>
-            <a href="#">Chicharr&oacute;n</a>
-          </li>
-          <li>
-            <a href="#">Pampaku</a>
-          </li>
-          <li>
-            <a href="#">Salte&ntilde;as</a>
-          </li>
-          <li>
-            <a href="#">Sopa de Maní</a>
-          </li>
-        </ul>
-      </div>
+
+
+
+
+
+
+
+
 
     </div>
 
+    <div class="pagination justify-content-end">
+      <!-- Add font awesome icons -->
+      <a href="https://www.facebook.com/turismocbba/?ref=br_rs" class="fa fa-facebook "></a>
+      <a href="https://plus.google.com/+GastronomiaEsp" class="fa fa-google"></a>
+      <a href="https://twitter.com/turiscocba?lang=es" class="fa fa-twitter"></a>
+      <a href="https://www.youtube.com/watch?v=6ZsAeiSSR2s" class="fa fa-youtube"></a>
+
+    </div>
+
+
+      <script src="js/popper.min.js"></script>
+      <script src="js/jquery-3.2.1.min.js"></script>
+      <script src="js/bootstrap.min.js"></script>
   </body>
 </html>
