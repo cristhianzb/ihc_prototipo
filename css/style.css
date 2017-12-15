@@ -29,6 +29,10 @@ body {
   width:100%
 }
 
+.desplegable{
+  background-color: #FFD43B;
+}
+
 .mi_item{
   background-color: #FFF07C;
 }
