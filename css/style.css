@@ -19,6 +19,10 @@ body {
 	 width: 400px;
    height: 400px;
 }
+.imagen_item2 {
+	 width: 300px;
+   height: 300px;
+}
 
 .imagen_lista {
 	 width: 20%;
@@ -40,6 +44,38 @@ body {
 .mi_boton{
   background-color: #FF7A00;
   color: white;
+}
+
+/*para hover*/
+.contenedor {
+  position: relative;
+  width: 50%;
+}
+
+.overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #FFF07C;
+  overflow: hidden;
+  width: 300px;
+  height: 0;
+  transition: .5s ease;
+}
+.contenedor:hover .overlay {
+  height: 300px;
+}
+.text {
+  white-space: nowrap;
+  color: black;
+  font-size: 25px;
+  position: absolute;
+  overflow: hidden;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
 }
 
 

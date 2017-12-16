@@ -7,71 +7,122 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="css/bootstrap.min.css">
   <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
-  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <nav class="navbar navbar-expand-lg navbar-light fixed-top" style="background-color: #FF7A00; ">
       <a class="navbar-brand" href="index.html">Turismo de Cochabamba</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#mynavbar" aria-controls="mynavbar" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
-      <div class="collapse navbar-collapse">
+      <div class="collapse navbar-collapse" id="mynavbar">
         <ul class="navbar-nav mr-auto">
-          <li class="nav-item">
+          <li class="nav-item active">
             <a class="nav-link" href="#">Atractivos Turisticos</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="index.html">Eventos</a>
+            <a class="nav-link active" href="index.html">Eventos</a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link" href="index.html">Tours y Recorridos</a>
+          <li class="nav-item active">
+            <a class="nav-link active" href="index.html">Tours y Recorridos</a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link" href="index.html">Gastronomia</a>
+          <li class="nav-item dropdown">
+            <a class="nav-link active dropdown-toogle" id="lista" href="index.html" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Gastronom&iacute;a</a>
+             <div class="dropdown-menu desplegable" aria-labelledby="lista">
+               <a class="dropdown-item" href="eventos.html">Eventos</a>
+               <a class="dropdown-item" href="platos_y_postres.html">Platos</a>
+               <a class="dropdown-item" href="restaurantes.html">Restaurantes</a>
+               <a class="dropdown-item" href="links.html">Web amigas</a>
+             </div>
           </li>
-          <li class="nav-item">
+          <li class="nav-item active">
             <a class="nav-link" href="index.html">Hospedajes</a>
           </li>
-          <li class="nav-item">
+          <li class="nav-item active">
             <a class="nav-link" href="index.html">Foros</a>
+          </li class="nav-item">
+          <li class="nav-item dropdown">
+            <a class="nav-link active dropdown-toogle" id="idiomas" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              <img src="resources/si-glyph-network-2.svg" style="width:20px;height:20px;" alt="lenguaje">
+              Idiomas</a>
+             <div class="dropdown-menu desplegable" aria-labelledby="idiomas">
+               <a class="dropdown-item" href="#">Ingl&eacute;s</a>
+               <a class="dropdown-item" href="#">Alem&aacute;n</a>
+               <a class="dropdown-item" href="#">Franc&eacute;s</a>
+               <a class="dropdown-item" href="#">Japon&eacute;s</a>
+             </div>
           </li>
         </ul>
+        <form class="form-inline my-2 my-lg-0">
+          <input class="form-control mr-sm-2" type="search" placeholder="Buscar" aria-label="Buscar">
+          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Buscar</button>
+        </form>
       </div>
   </nav>
+  <img id="banner" src="resources/banner.jpg" alt="banner">
+  <br>
+  <br>
+  <div class="container">
+    <center>
+      <h1>Platos y Postres</h1>
+    </center>
 
+    <br>
+    <p class="">
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam illum ab officia, enim iure ipsa eos, voluptas nobis architecto commodi quod, quis nesciunt deserunt natus eius fugiat sequi optio nisi?
+    </p>
 
-<div class="container-fluid">
-  <div class="row">
-    <div class="col-md-6 col-md-offset-3">
-            <h1>Platos</h1>
-            <br>
-            <br>
-            <a href="registro.html">
-              <img src="resources/chicharron.jpg" alt="chicharron">
-            </a>
-            <br>
-			<a href="registro.html">
-              <img src="resources/spagueti.jpg" alt="spagueti">
-            </a>
-			<a href="registro.html">
-              <img src="resources/hamburguesa.jpg" alt="hamburguesa">
-            </a>
-			<a href="registro.html">
-              <img src="resources/piquemacho.jpg" alt="piquemacho">
-            </a>
-            <br>
-            <p class="lead">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam illum ab officia, enim iure ipsa eos, voluptas nobis architecto commodi quod, quis nesciunt deserunt natus eius fugiat sequi optio nisi?
-            </p>
+    <br>
+
+    <div class="row">
+
+      <div class="contenedor">
+        <img class="imagen_item2 image" src="resources/chicharron.jpg" alt="chicharron">
+        <a href="platos.html" class="overlay">
+          <div class="text">Platos Cochalos</div>
+        </a>
+      </div>
+
+      <div class="contenedor">
+        <img class="imagen_item2 image" src="resources/spagueti.jpg" alt="spagueti">
+        <a href="registro.html" class="overlay">
+          <div class="text">Platos extranjeros</div>
+        </a>
+      </div>
+
+      <div class="contenedor">
+        <img class="imagen_item2 image" src="resources/hamburguesa.jpg" alt="hamburguesa">
+        <a href="registro.html" class="overlay">
+          <div class="text">Comida Rapida</div>
+        </a>
+      </div>
+
+      <div class="contenedor">
+        <img class="imagen_item2 image" src="resources/postre.png" alt="postre">
+        <a href="registro.html" class="overlay">
+          <div class="text">Postres</div>
+        </a>
+      </div>
     </div>
+
+
+
   </div>
-</div>
 
 
 
+  <br>
+  <div class="pagination justify-content-end">
+    <!-- Add font awesome icons -->
+    <a href="https://www.facebook.com/turismocbba/?ref=br_rs" class="fa fa-facebook "></a>
+    <a href="https://plus.google.com/+GastronomiaEsp" class="fa fa-google"></a>
+    <a href="https://twitter.com/turiscocba?lang=es" class="fa fa-twitter"></a>
+    <a href="https://www.youtube.com/watch?v=6ZsAeiSSR2s" class="fa fa-youtube"></a>
+
+  </div>
 
 
-
-
+  <script src="js/popper.min.js"></script>
   <script src="js/jquery-3.2.1.min.js"></script>
   <script src="js/bootstrap.min.js"></script>
 </body>
