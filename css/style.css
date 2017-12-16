@@ -3,17 +3,12 @@ body {
 
 }
 
-/*
-#personaje{
-  width:40px;
-  height: 40px;
-  -webkit-transition:1.5s;
-  -webkit-transform:rotate(360deg);
-  -moz-transition:1.5s;
-  -moz-transform:rotate(360deg);
-
-
-}*/
+.mititulo{
+  color:#c14405;
+}
+.minav{
+  color:white;
+}
 
 .imagen_item {
 	 width: 400px;
