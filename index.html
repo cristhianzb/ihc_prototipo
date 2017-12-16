@@ -17,7 +17,7 @@
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#mynavbar" aria-controls="mynavbar" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
-      <div class="collapse navbar-collapse">
+      <div class="collapse navbar-collapse" id="mynavbar">
         <ul class="navbar-nav mr-auto">
           <li class="nav-item active">
             <a class="nav-link" href="#">Atractivos Turisticos</a>
@@ -29,10 +29,10 @@
             <a class="nav-link active" href="index.html">Tours y Recorridos</a>
           </li>
           <li class="nav-item dropdown">
-            <a class="nav-link active dropdown-toogle" id="lista" href="index.html" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Gastronomia</a>
-             <div class="dropdown-menu" aria-labelledby="lista">
+            <a class="nav-link active dropdown-toogle" id="lista" href="index.html" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Gastronom&iacute;a</a>
+             <div class="dropdown-menu desplegable" aria-labelledby="lista">
                <a class="dropdown-item" href="eventos.html">Eventos</a>
-               <a class="dropdown-item" href="platos.html">Platos</a>
+               <a class="dropdown-item" href="platos_y_postres.html">Platos</a>
                <a class="dropdown-item" href="restaurantes.html">Restaurantes</a>
                <a class="dropdown-item" href="links.html">Web amigas</a>
              </div>
@@ -47,11 +47,11 @@
             <a class="nav-link active dropdown-toogle" id="idiomas" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
               <img src="resources/si-glyph-network-2.svg" style="width:20px;height:20px;" alt="lenguaje">
               Idiomas</a>
-             <div class="dropdown-menu" aria-labelledby="idiomas">
-               <a class="dropdown-item" href="#">Ingles</a>
-               <a class="dropdown-item" href="#">Aleman</a>
-               <a class="dropdown-item" href="#">Frances</a>
-               <a class="dropdown-item" href="#">Japones</a>
+             <div class="dropdown-menu desplegable" aria-labelledby="idiomas">
+               <a class="dropdown-item" href="#">Ingl&eacute;s</a>
+               <a class="dropdown-item" href="#">Alem&aacute;n</a>
+               <a class="dropdown-item" href="#">Franc&eacute;s</a>
+               <a class="dropdown-item" href="#">Japon&eacute;s</a>
              </div>
           </li>
         </ul>
@@ -63,22 +63,25 @@
   </nav>
 
   <img id="banner" src="resources/banner.jpg" alt="banner">
+  <br>
+  <br>
+  <h1 class="d-flex justify-content-center">Gastronom&iacute;a Cochabambina</h1>
+  <br>
+  <br>
+  <div class="d-flex justify-content-center">
 
-
-  <center>
-    <h1>Gastronomia Cochabambina</h1>
-    <div class="container mx-auto">
-          <div class="row mx-auto">
-            <div class="card">
-              <img class="card-img-top imagen_item" src="resources/piquemacho.jpg" alt="piquemacho">
+    <div class="">
+          <div class="row">
+            <div class="card mi_item ">
+              <img class="card-img-top imagen_item rounded" src="resources/piquemacho.jpg" alt="piquemacho">
               <div class="card-body">
                 <h4 class="card-title" >Platos</h4>
                 <p class="card-text">Riquisimos platos Cochabambinos a solo un click</p>
                 <a class="btn mi_boton" href="platos.html">Platos</a>
               </div>
             </div>
-            <div class="card">
-              <img class="card-img-top imagen_item" src="resources/restaurantes.jpg" alt="restaurantes">
+            <div class="card mi_item">
+              <img class="card-img-top imagen_item rounded" src="resources/restaurantes.jpg" alt="restaurantes">
               <div class="card-body">
                 <h4 class="card-title" >Restaurantes</h4>
                 <p class="card-text">Visite Restaurantes que sirven estos platos</p>
@@ -87,17 +90,17 @@
             </div>
           </div>
           <br>
-          <div class="row mx-auto">
-            <div class="card">
-                <img class="card-img-top imagen_item" src="resources/eventos.jpg" alt="eventos">
+          <div class="row">
+            <div class="card mi_item">
+                <img class="card-img-top imagen_item rounded" src="resources/eventos.jpg" alt="eventos">
                 <div class="card-body">
                   <h4 class="card-title" >Eventos</h4>
                   <p class="card-text">Enterese de los proximos eventos gastronomicos</p>
                   <a class="btn mi_boton" href="eventos.html">Eventos</a>
                 </div>
             </div>
-            <div class="card">
-                <img class="card-img-top imagen_item" src="resources/links.jpg" alt="web amigas">
+            <div class="card mi_item">
+                <img class="card-img-top imagen_item rounded" src="resources/links.jpg" alt="web amigas">
                 <div class="card-body">
                   <h4 class="card-title" >Web Amigas</h4>
                   <p class="card-text">Visite los sitios de nuestras paginas amigas</p>
@@ -106,7 +109,10 @@
             </div>
           </div>
     </div>
-  </center>
+  </div>
+
+
+
 
 
 
@@ -117,10 +123,13 @@
 
 
   <div class="pagination justify-content-end">
-  <!-- Add font awesome icons -->
-  <a href="https://www.facebook.com/turismocbba/?ref=br_rs" class="fa fa-facebook "></a>
-  <a href="https://twitter.com/turiscocba?lang=es" class="fa fa-twitter"></a>
-</div>
+    <!-- Add font awesome icons -->
+    <a href="https://www.facebook.com/turismocbba/?ref=br_rs" class="fa fa-facebook "></a>
+    <a href="https://plus.google.com/+GastronomiaEsp" class="fa fa-google"></a>
+    <a href="https://twitter.com/turiscocba?lang=es" class="fa fa-twitter"></a>
+    <a href="https://www.youtube.com/watch?v=6ZsAeiSSR2s" class="fa fa-youtube"></a>
+
+  </div>
 
 
   <script src="js/popper.min.js"></script>
